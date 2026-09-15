@@ -43,7 +43,7 @@ void push(){
 
 void top(){
     if(topo == NULL){
-        printf("Pilha Vazia \n");
+        printf("Stack is Empty \n");
     }else{
         printf("Topo da pilha: %s \n \n", topo);
     }
@@ -52,7 +52,7 @@ void top(){
 
 void pop(){
     if(topo == NULL){
-        printf("Pilha Vazia \n");
+        printf("Stack is Empty \n");
     }else{
         if(topo->next==NULL && topo->back==NULL){
             free(topo);
